@@ -5,7 +5,7 @@ import Info from "./Info";
 export default function BurgerList({
   burgerHandleClicker,
 }: {
-  burgerHandleClicker: () => {};
+  burgerHandleClicker: () => void;
 }) {
   return (
     <div className="fixed inset-0 top-0 z-4">

@@ -8,8 +8,9 @@ export default function Header() {
   const burgerHandleClicker = () => setBurgerClicked(!burgerClicked);
   return (
     <div
-      className="px-[20px] py-[10px] flex justify-between items-center border-b border-b-gray-200
-"
+      className={`px-[20px] py-[10px] flex justify-between items-center ${
+        !burgerClicked ? "border-b" : null
+      } ${burgerClicked ? "border-b-gray-200" : null} `}
     >
       <Image src={"/logo.png"} width={40} height={40} alt={"logo"} />
 
