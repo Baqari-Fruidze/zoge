@@ -7,19 +7,19 @@ export default function Info() {
     <div className="flex flex-col gap-[14px] xl:flex-row xl:gap-[32px]">
       <a
         href=""
-        className="font-georgian text-[14px] text-[#2D3142] font-semibold cursor-pointer"
+        className="font-sans text-[14px] text-[#2D3142] font-semibold cursor-pointer"
       >
         მთავარი
       </a>
       <a
         href=""
-        className="font-georgian text-[14px] text-[#2D3142] font-semibold cursor-pointer"
+        className="font-sans text-[14px] text-[#2D3142] font-semibold cursor-pointer"
       >
         ჩვენს შესახებ
       </a>
       <a
         href=""
-        className="font-georgian text-[14px] text-[#2D3142] font-semibold cursor-pointer"
+        className="font-sans text-[14px] text-[#2D3142] font-semibold cursor-pointer"
       >
         კონტაქტი
       </a>

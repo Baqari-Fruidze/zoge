@@ -12,7 +12,7 @@ export default function ButtonAuth({
   return (
     <button
       type={type}
-      className={`rounded-full text-[14px] font-semibold tracking-[0.28px] py-[12px] xl:px-[22px] ${className}`}
+      className={`rounded-full text-[14px] font-semibold font-sans tracking-[0.28px] py-[12px] xl:px-[22px] ${className}`}
     >
       {children}
     </button>
